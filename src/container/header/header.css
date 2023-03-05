@@ -1,0 +1,116 @@
+.header{
+    color: aliceblue;
+}
+.header__heading{
+margin-top: 2.4rem;
+}
+.header__heading p{
+    font-family: var(--font-family);
+    font-size: 70px;
+    font-weight: 700;
+    padding: 0 2rem;
+}
+
+.header__discription p{
+    padding: 1.2rem 2rem;
+    color: rgb(141, 141, 194);
+}
+.header__email{
+    padding: 1.2rem 2rem;
+}
+.header__email-inpt{
+    background-color: var(--color-footer);
+    padding: 0.9rem 1rem ;
+    font-size: 19px;
+    border: 0;
+}
+.header__email-btn{
+    padding: 0.8rem 1rem ;
+     color: #fff;
+     background: #ff4820;
+     font-family: var(--font-family);
+     font-size: 19px;
+     line-height: 25px ;
+     font-weight: 500;
+     border-radius: 0 5px 5px 0;
+     border: 0;
+     outline: none ;
+     cursor: pointer;
+}
+.header__email-request_forms{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.2rem 2rem;
+    align-items: center;
+}
+.header__email-request_forms p{
+    margin-left: 1rem;
+    font-size: small;
+}
+.header1{
+    display: flex;
+
+}
+.header_image img{
+    height: 650px;
+    width: 650px;
+}
+@media screen and (max-width: 1390px) {
+    .header_image img{
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width: 1250px) {
+    .header_image img{
+        height: 500px;
+        width: 500px;
+    }
+    .header__heading p{
+        font-family: var(--font-family);
+        font-size: 50px;
+        font-weight: 800;
+        padding: 0 1rem;
+    }
+    
+}
+@media screen and (max-width: 1030px) {
+    .header_image img{
+        height: 500px;
+        width: 500px;
+    }
+    .header__heading p{
+        font-family: var(--font-family);
+        font-size: 40px;
+        font-weight: 800;
+        padding: 0 1rem;
+    }
+    
+}
+@media screen and (max-width: 978px) {
+.header1{
+    display: block;
+}
+.header__heading p,
+.header__discription p
+{
+    text-align: center;
+}
+.header__email-request_forms,
+.header_image,
+.header__email{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (max-width: 500px){
+    .header_image img{
+        width: 100vw;
+        height: 100vw;
+    }
+    .header__email input,button{
+        font-size: 15px;
+    }
+}

@@ -5,7 +5,7 @@ import { Article,Brand,Cta, Navbar } from './components';
 function App() {
   return (
     <div className='App  gradient__bg'>
-      <div className='gradient_bg'>
+      <div >
       <Navbar/>
       <Header/>
       </div>
