@@ -60,6 +60,10 @@ export default function Navbar() {
             <div className="gpt3__navbar-menu-container scale-up-center">
               <div className="gpt3__navbar-menu-container-links">
                 <Menu/>
+                <div className="gpt3__navbar-sign gpt3__navbar-menu_container-links-sign">
+          <p>Sign in</p>
+          <button type="button">Sign up</button>
+        </div>
               </div>
             </div>
           )}

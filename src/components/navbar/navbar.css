@@ -1,6 +1,6 @@
 .gpt3__navbar{
     /* background-color: rgb(74, 121, 162); */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,10 +9,10 @@
 }
 .gpt3__navbar-links{
    /* background-color: aqua; */
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
 }
 .gpt3__navbar-links_logo{
@@ -30,6 +30,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex: inherit;
 }
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
@@ -57,9 +58,67 @@
      outline: none ;
      cursor: pointer;
 }
-.gpt3__navbar-menu-container{
-
+.gpt3__navbar-menu{
+    display: none;
+    margin-left: 1rem;
+    /* display: none; */
+    position: relative;
 }
-.gpt3__navbar-menu-container-links{
-    
+.gpt3__navbar-menu svg{
+    cursor: pointer;
+}
+.gpt3__navbar-menu-container{
+    /* border: 2px solid rgb(221, 213, 213); */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.gpt3__navbar-menu-container p{
+    margin: 1rem 0;
+}
+.gpt3__navbar-menu_container-links-sign{
+    display: none;
+}
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container{
+        display: none;
+    }
+    .gpt3__navbar-menu{
+        display: flex;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .gpt3__navbar{
+        padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width: 550px) {
+
+    .gpt3__navbar{
+        padding: 2rem;
+    }
+    .gpt3__navbar-sign{
+        display: none;
+    }
+    .gpt3__navbar-menu-container{
+        top: 20px;
+    }
+    .gpt3__navbar-menu_container-links-sign{
+        display: block;
+    }
+    .gpt3__navbar-links{
+        display: flex;
+        justify-content: space-between;
+    }
 }
