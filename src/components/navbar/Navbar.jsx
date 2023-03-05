@@ -26,7 +26,7 @@ const Menu = () => {
 export default function Navbar() {
   const [togglemenu, settogglemenu] = useState(false);
   return (
-    <div className="gpt3__navbar gradient__bg">
+    <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} alt="logo" />

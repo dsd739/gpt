@@ -69,6 +69,7 @@
 }
 .gpt3__navbar-menu-container{
     /* border: 2px solid rgb(221, 213, 213); */
+    color: #fff;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
