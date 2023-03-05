@@ -1,0 +1,22 @@
+.this_component{
+    display: inline-block;
+    height: 75px;
+    /* border: 2px solid red; */
+}
+
+.design{
+    position:relative;
+    top: 13%;
+    left: 0%;
+    height: 5px;
+    width: 51px;
+    background-image: linear-gradient(to right, rgb(244, 27, 255) , rgb(200, 21, 137));
+}
+.this_component p{
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    bottom: -15px;
+}

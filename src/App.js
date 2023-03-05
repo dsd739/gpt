@@ -12,7 +12,6 @@ function App() {
       <Brand/>
       <WhatGPT3/>
       <Article/>
-      <Features/> 
       <Possibility/>
       <Cta/>
       <Blog/>  

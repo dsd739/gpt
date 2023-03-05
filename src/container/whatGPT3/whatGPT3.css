@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatisgpt{
+    margin-top: 2rem;
+    height: 90vh;
+    width: 85vw;
+    background-color: rgb(8, 99, 68);
+}
+.firts_porsion{
+    padding: 0 2rem;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+.firts_porsion p{
+    width: 700px;
+}
+.second_porsion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 33%;
+    text-align: center;
+}
+.second_porsion h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+.third__porsion{
+    padding: 0 2rem;
+    height: 33%;
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+}
+.third__porsion2{
+}

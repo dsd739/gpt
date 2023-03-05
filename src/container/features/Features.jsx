@@ -1,8 +1,11 @@
 import React from 'react'
 import './features.css'
 
-export default function Features() {
+export default function Features(props) {
   return (
-    <div>Features</div>
+    <div className='this_component'>
+      <div className="design"></div>
+      <p>{props.data}</p>
+    </div>
   )
 }
