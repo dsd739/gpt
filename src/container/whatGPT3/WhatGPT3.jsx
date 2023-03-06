@@ -4,7 +4,7 @@ import "./whatGPT3.css";
 
 export default function WhatGPT3() {
   return (
-    <div className="container">
+    <div id="What_is_GPT" className="container">
       <div className="whatisgpt">
         <div className="firts_porsion">
         <div className="feature"><Features data="What is GPT-3" /></div>

@@ -1,5 +1,5 @@
 import './App.css';
-import {Features,Footer,Blog,Possibility,WhatGPT3,Header} from './container'
+import {Footer,Blog,Possibility,WhatGPT3,Header} from './container'
 import { Article,Brand,Cta, Navbar } from './components';
 
 function App() {

@@ -9,6 +9,7 @@
     background-color: var(--color-footer);
 }
 .firts_porsion{
+    font-family: var(--font-family);
     margin-top: 4rem;
     padding: 0 2rem;
     height: 33%;
@@ -29,15 +30,18 @@
     text-align: center;
 }
 .second_porsion h1{
+    font-family: var(--font-family);
     font-size: 50px;
     font-weight:bold;
     text-align: start;
 }
 .second_porsion p{
+    font-family: var(--font-family);
     color: var(--color-subtext);
     font-weight: 600;
 }
 .third__porsion{
+    font-family: var(--font-family);
     margin-bottom: 4rem;
     padding: 0 2rem;
     height: 33%;

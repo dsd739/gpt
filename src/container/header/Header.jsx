@@ -5,7 +5,7 @@ import image_1 from '../../assets/ai.png'
 
 export default function Header() {
   return (
-    <div className="header1">
+    <div id="home" className="header1">
       <div className="header">
         <div className="header__heading gradient__text">
           <p>Let’s Build Something amazing with GPT-3 OpenAI</p>
@@ -29,7 +29,7 @@ export default function Header() {
           </button>
         </div>
         <div className="header__email-request_forms">
-          <img src={image_2} />
+          <img src={image_2} alt='header_img' />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
