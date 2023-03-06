@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.possibility_image{
+    font-family: var(--font-family);
 }
 .possibility_image img{
     width: 30vw;
@@ -81,14 +80,7 @@ padding: .5rem 0rem;
     }
 }
 @media screen and (max-width:313px) {
-    .possibility_contant{
-        padding: 0rem 1rem;
-        }
-    .possibility_image img{
-        width: 30vw;
-    }
     .possibility_contant_1{
-        padding: .2rem 0rem;
         font-size: 10px;
     }
     .possibility_contant_2{
