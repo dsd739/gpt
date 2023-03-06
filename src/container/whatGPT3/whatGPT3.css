@@ -4,21 +4,23 @@
     align-items: center;
 }
 .whatisgpt{
-    margin-top: 2rem;
-    height: 90vh;
-    width: 85vw;
-    background-color: rgb(8, 99, 68);
+    margin-top: 3rem;
+    width: 85%;
+    background-color: var(--color-footer);
 }
 .firts_porsion{
+    margin-top: 4rem;
     padding: 0 2rem;
     height: 33%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-.firts_porsion p{
-    width: 700px;
+.p_tg{
+    width: 60%;
 }
 .second_porsion{
+    margin: 3rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,13 +31,98 @@
 .second_porsion h1{
     font-size: 50px;
     font-weight:bold;
+    text-align: start;
+}
+.second_porsion p{
+    color: var(--color-subtext);
+    font-weight: 600;
 }
 .third__porsion{
+    margin-bottom: 4rem;
     padding: 0 2rem;
     height: 33%;
     display: flex;
     justify-content:space-between;
     align-items:baseline;
 }
-.third__porsion2{
+.third__porsion1 {
+padding: 0 1rem;
+}
+.third__porsion2 {
+    padding: 0 1rem;
+}
+.third__porsion3{
+    padding: 0 1rem;
+}
+.p_tages{
+    font-size: 19px;
+    color: rgb(96, 122, 144);
+    font-weight: 400;
+}
+@media screen and (max-width:1050px) {
+    .firts_porsion{
+        margin-top: 3rem;}
+        .third__porsion{
+            margin-bottom: 3rem;}
+    .p_tages{
+        font-size: 15px;
+    }
+    .second_porsion h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:930px){
+    .feature p{
+        font-size: 25px;
+    }
+    .p_tages{
+        font-size: 12px;
+    }
+    .second_porsion h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:860px){
+    .feature p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:610px){
+    .firts_porsion{
+        flex-direction: column;
+        justify-content:center;
+    }
+    .p_tg{
+        width: 90%;
+        text-align: center;
+    }
+    .second_porsion p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .second_porsion {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .second_porsion h1{
+        text-align: center;
+    }
+    .second_porsion p{
+        margin-top: 1rem;
+    }
+    .feature p{
+        font-size: 18px;
+        height: 30px;
+    }
+    .third__porsion{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .this_component{
+        height: 50px;
+    }
+    .p_tages{
+        margin-bottom: 1rem;
+    }
 }

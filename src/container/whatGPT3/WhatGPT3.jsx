@@ -7,8 +7,8 @@ export default function WhatGPT3() {
     <div className="container">
       <div className="whatisgpt">
         <div className="firts_porsion">
-          <Features data="What is GPT-3" />
-          <p>
+        <div className="feature"><Features data="What is GPT-3" /></div>
+          <p className="p_tg p_tages">
             We so opinion friends me message as delight. Whole front do of plate
             heard oh ought. His defective nor convinced residence own.
             Connection has put impossible own apartments boisterous. At jointure
@@ -22,22 +22,22 @@ export default function WhatGPT3() {
         </div>
         <div className="third__porsion">
           <div className="third__porsion1">
-            <Features data="Chatbots" />
-            <p>
+            <div className="feature"><Features data="Chatbots" /></div>
+            <p className="p_tages">
               We so opinion friends me message as delight. Whole front do of
-              plate heard oh ought.{" "}
+              plate heard oh ought.
             </p>
           </div>
           <div className="third__porsion2">
-            <Features data="Knowledgebase" />
-            <p>
+          <div className="feature"><Features data="Knowledgebase" /></div>
+            <p className="p_tages">
               At jointure ladyship an insisted so humanity he. Friendly bachelor
               entrance to on by. As put impossible own apartments b
             </p>
           </div>
           <div className="third__porsion3">
-            <Features data="Education" />
-            <p>
+          <div className="feature"><Features data="Education" /></div>
+            <p className="p_tages">
               At jointure ladyship an insisted so humanity he. Friendly bachelor
               entrance to on by. As put impossible own apartments b
             </p>
