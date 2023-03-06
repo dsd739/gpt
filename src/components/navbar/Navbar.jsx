@@ -57,7 +57,7 @@ export default function Navbar() {
             />
           )}
           {togglemenu && (
-            <div className="gpt3__navbar-menu-container scale-up-center">
+            <div className="gpt3__navbar-menu-container scale-up-tr">
               <div className="gpt3__navbar-menu-container-links">
                 <Menu/>
                 <div className="gpt3__navbar-sign gpt3__navbar-menu_container-links-sign">

@@ -7,6 +7,10 @@
     padding: 2rem 6rem;
 
 }
+.scale-up-tr {
+	-webkit-animation: scale-up-tr 0.4s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+	        animation: scale-up-tr 0.4s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+}
 .gpt3__navbar-links{
    /* background-color: aqua; */
     /* border: 2px solid brown; */
