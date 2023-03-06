@@ -8,7 +8,7 @@ import image_5 from '../../assets/shopify.png'
 
 export default function Brand() {
   return (
-    <div>
+    <div >
       <div className="brand_container">
           <img src={image_1} alt="Google" />
           <img src={image_2} alt="Slack" />

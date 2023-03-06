@@ -4,7 +4,7 @@ import image from "../../assets/possibility.png";
 
 export default function Possibility() {
   return (
-    <div className="possibility">
+    <div id="Case_Studies" className="possibility">
       <div className="possibility_image">
         <img src={image} alt="possibility" />
       </div>
